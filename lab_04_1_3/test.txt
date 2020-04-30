@@ -1,0 +1,34 @@
+// negative array size
+Input n: -5
+Error
+
+// symbol array size
+Input n: e
+Error
+
+// zero array size
+Input n: 0
+Error
+
+// array size > 10;
+Input n: 11
+Error
+
+// symbol element
+Input n:5
+Input element: e
+Error
+
+// array with only 3 - 10 elements
+Input n:10
+Input element: 3
+Input element: 3
+Input element: 3
+Input element: 3
+Input element: 3
+Input element: 3
+Input element: 3
+Input element: 3
+Input element: 3
+Input element: 3
+Array: 3 1 3 1 3 1 3 1 3 1 3 1 3 1 3 1 3 1 3 1

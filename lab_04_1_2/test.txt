@@ -1,0 +1,35 @@
+// negative array size
+Input n: -5
+Error
+
+// symbol array size
+Input n: e
+Error
+
+// zero array size
+Input n: 0
+Error
+
+// array size > 10;
+Input n: 11
+Error
+
+// symbol element
+Input n:5
+Input element: e
+Error
+
+// elements without prime number
+Input n:2
+Input element: 10
+Input element: 20
+Error
+
+// elements with prime number
+Input n:5
+Input element: 0
+Input element: 1
+Input element: 2
+Input element: 3
+Input element: 4
+Array: 23

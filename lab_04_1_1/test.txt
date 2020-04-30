@@ -1,0 +1,34 @@
+// negative array size
+Input n: -5
+Error
+
+// symbol array size
+Input n: e
+Error
+
+// zero array size
+Input n: 0
+Error
+
+// array size > 10;
+Input n: 11
+Error
+
+// symbol element
+Input n:2
+Input element: ç
+Error
+
+// when no even number was not found
+Input n:3
+Input element: 2
+Input element: 2
+Input element: 2
+Error
+
+// negative no even number
+Input n:3
+Input element: -1
+Input element: -1
+Input element: 5
+5

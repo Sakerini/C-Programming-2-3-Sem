@@ -1,0 +1,57 @@
+1) Incorrect input:
+______________________________________
+1.1) n < 0:
+input:  Input rows and collumns of the matrix
+	-5
+	3
+output:	Error
+_______________________________________
+1.2) n != integer.
+input:  Input rows and collumns of the matrix
+	3
+	a
+output: Error
+_______________________________________
+input:  Input rows and collumns of the matrix
+	5
+	1.2
+output: Error
+_______________________________________
+1.3) n > N_MAX(10)
+input:  Input rows and collumns of the matrix
+	4
+	11
+output:	Error
+_______________________________________
+1.4) element != integer:
+input:  Input rows and collumns of the matrix
+	4
+	3
+	Input element of the matrix by rows
+	1.2
+output: Error
+
+input:  Input size of the matrix
+	4
+	4
+	Input element of the matrix by rows
+	a
+output: Error
+_______________________________________
+2)TEST FUNC PROGRAM:
+input:  Input rows and collumns of the matrix
+	3
+	3
+	Input element of the matrix by rows     ======> 1 -1  2  =>  3 5
+	1						3  4  5	     6 8
+	-1						6  7  8 
+	2                                              
+	3
+	4
+	5
+	6
+	7
+	8
+output: Matrix
+	3 5
+	6 8
